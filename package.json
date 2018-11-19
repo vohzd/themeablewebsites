@@ -1,0 +1,29 @@
+{
+  "name": "themablewebsites",
+  "version": "0.1.0",
+  "description": "themable websites",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "generate": "cross-env NODE_ENV=production nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohzd/themablewebsites.git"
+  },
+  "keywords": [
+    "useful",
+    "styling"
+  ],
+  "author": "vohzd",
+  "bugs": {
+    "url": "https://github.com/vohzd/themablewebsites/issues"
+  },
+  "homepage": "https://github.com/vohzd/themablewebsites#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  },
+  "dependencies": {
+    "nuxt": "^2.3.1",
+    "vue-color": "^2.7.0"
+  }
+}
